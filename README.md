@@ -107,8 +107,6 @@ Notebook 3 covers bug tracking, virtual environments, pdoc, Komodo Edit, debuggi
 
 ### Your instructor: Zaid Kamil
 
-I have over 12 years of experience in software development, technical education, and technology leadership. My expertise includes Python, backend development, AI and machine learning, automation, Flutter, and Android development. I have authored two technology books published by BPB Publications: **My First Mobile App for Students** and **Flutter Solutions for Web Developers**.
-
 ### Stay connected
 
 If this session helped you, **follow [Zaid Kamil on GitHub](https://github.com/zaid-kamil)** for more learning resources and **[connect on LinkedIn](https://linkedin.com/in/zaid-kamil-94211a40)**. Mention the Amity Lucknow workshop in your connection request.
