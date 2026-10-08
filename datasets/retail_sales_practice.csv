@@ -1,0 +1,14 @@
+Order_ID,Date,Product,Region,Units,Unit_Price,Unit_Cost
+R001,2026-09-01,Notebook,Lucknow,20,100,60
+R002,2026-09-02,Pen,Delhi,50,20,10
+R003,2026-09-03,Planner,Kanpur,8,300,180
+R004,2026-09-04,Notebook,Delhi,30,100,60
+R005,2026-09-05,Planner,Lucknow,12,300,180
+R006,2026-09-06,Pen,Kanpur,80,20,10
+R007,2026-09-07,Notebook,Kanpur,25,100,60
+R008,2026-09-08,Planner,Delhi,6,300,180
+R009,2026-09-09,Pen,Lucknow,100,20,10
+R010,2026-09-10,Notebook,Lucknow,,100,60
+R011,2026-09-11,Planner,Kanpur,10,300,180
+R012,2026-09-12,Pen,Delhi,60,20,10
+R003,2026-09-03,Planner,Kanpur,8,300,180
