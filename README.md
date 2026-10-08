@@ -28,7 +28,7 @@ Learn to turn business data into useful decisions with **Python, NumPy, and Pand
 |---|---|---|
 | [Python refresher + NumPy](notebooks/01_numpy_business_essentials.ipynb) | Arrays, matrices, calculations, statistics, filtering, and visualisation | [Open in Colab](https://colab.research.google.com/github/zaid-kamil/Data-analytics-using-numpy-and-python-at-Amity-Lucknow/blob/main/notebooks/01_numpy_business_essentials.ipynb) |
 | [Pandas sales analysis](notebooks/02_pandas_sales_analysis.ipynb) | DataFrames, cleaning, revenue/profit, grouping, ranking, and visualisation | [Open in Colab](https://colab.research.google.com/github/zaid-kamil/Data-analytics-using-numpy-and-python-at-Amity-Lucknow/blob/main/notebooks/02_pandas_sales_analysis.ipynb) |
-| [Closing appendix](notebooks/03_python_toolkit.ipynb) | Python tools for trustworthy analysis and optional self-study | [Open in Colab](https://colab.research.google.com/github/zaid-kamil/Data-analytics-using-numpy-and-python-at-Amity-Lucknow/blob/main/notebooks/03_python_toolkit.ipynb) |
+| [Closing appendix](notebooks/04_python_toolkit.ipynb) | Python tools for trustworthy analysis and optional self-study | [Open in Colab](https://colab.research.google.com/github/zaid-kamil/Data-analytics-using-numpy-and-python-at-Amity-Lucknow/blob/main/notebooks/04_python_toolkit.ipynb) |
 
 The notebooks are self-contained. Run them in order; within each notebook, run cells from top to bottom. Every notebook includes an instructor introduction, badges, small samples, and a connection invitation.
 
