@@ -1,0 +1,21 @@
+[project]
+name = "data-analytics-using-numpy-and-python-at-amity-lucknow"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "zaid-kamil", email = "xaidmetamorphos@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "matplotlib>=3.11.2",
+    "pandas>=3.0.6",
+]
+
+[project.scripts]
+data-analytics-using-numpy-and-python-at-amity-lucknow = "data_analytics_using_numpy_and_python_at_amity_lucknow:main"
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"
