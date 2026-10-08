@@ -20,15 +20,15 @@ Learn to turn business data into useful decisions with **Python, NumPy, and Pand
 - Use Pandas to inspect, clean, filter, and summarise transaction data.
 - Distinguish revenue, gross profit, and margin.
 - Explain the assumptions and limitations behind a management report.
-- Understand eigenvalues at an introductory level and recognise supporting Python tools.
+- Recognise Python tools that support reliable, maintainable analysis.
 
 ## Start here: teaching notebooks
 
 | Notebook | Coverage | Run online |
 |---|---|---|
-| [Python refresher + NumPy](notebooks/01_numpy_business_essentials.ipynb) | Arrays, calculations, statistics, filtering, branch comparison | [Open in Colab](https://colab.research.google.com/github/zaid-kamil/Data-analytics-using-numpy-and-python-at-Amity-Lucknow/blob/main/notebooks/01_numpy_business_essentials.ipynb) |
-| [Pandas sales analysis](notebooks/02_pandas_sales_analysis.ipynb) | CSV loading, cleaning, revenue/profit, grouping, ranking, exercises | [Open in Colab](https://colab.research.google.com/github/zaid-kamil/Data-analytics-using-numpy-and-python-at-Amity-Lucknow/blob/main/notebooks/02_pandas_sales_analysis.ipynb) |
-| [Closing appendix](notebooks/03_eigenvalues_and_python_toolkit.ipynb) | Eigenvalues, two examples per requested tool, optional self-study | [Open in Colab](https://colab.research.google.com/github/zaid-kamil/Data-analytics-using-numpy-and-python-at-Amity-Lucknow/blob/main/notebooks/03_eigenvalues_and_python_toolkit.ipynb) |
+| [Python refresher + NumPy](notebooks/01_numpy_business_essentials.ipynb) | Arrays, matrices, calculations, statistics, filtering, and visualisation | [Open in Colab](https://colab.research.google.com/github/zaid-kamil/Data-analytics-using-numpy-and-python-at-Amity-Lucknow/blob/main/notebooks/01_numpy_business_essentials.ipynb) |
+| [Pandas sales analysis](notebooks/02_pandas_sales_analysis.ipynb) | DataFrames, cleaning, revenue/profit, grouping, ranking, and visualisation | [Open in Colab](https://colab.research.google.com/github/zaid-kamil/Data-analytics-using-numpy-and-python-at-Amity-Lucknow/blob/main/notebooks/02_pandas_sales_analysis.ipynb) |
+| [Closing appendix](notebooks/03_python_toolkit.ipynb) | Python tools for trustworthy analysis and optional self-study | [Open in Colab](https://colab.research.google.com/github/zaid-kamil/Data-analytics-using-numpy-and-python-at-Amity-Lucknow/blob/main/notebooks/03_python_toolkit.ipynb) |
 
 The notebooks are self-contained. Run them in order; within each notebook, run cells from top to bottom. Every notebook includes an instructor introduction, badges, small samples, and a connection invitation.
 
@@ -36,10 +36,10 @@ The notebooks are self-contained. Run them in order; within each notebook, run c
 
 | Resource | Purpose | Run online |
 |---|---|---|
-| [Student practice notebook](notebooks/04_student_practice.ipynb) | Ten tasks with prompts, data loading, and empty answer cells | [Open in Colab](https://colab.research.google.com/github/zaid-kamil/Data-analytics-using-numpy-and-python-at-Amity-Lucknow/blob/main/notebooks/04_student_practice.ipynb) |
+| [Student practice notebook](notebooks/04_student_practice.ipynb) | Nine tasks with prompts, data loading, and empty answer cells | [Open in Colab](https://colab.research.google.com/github/zaid-kamil/Data-analytics-using-numpy-and-python-at-Amity-Lucknow/blob/main/notebooks/04_student_practice.ipynb) |
 | [Solved notebook](solutions/04_practice_solutions.ipynb) | Worked code, interpretation, and expected checkpoints | [Open in Colab](https://colab.research.google.com/github/zaid-kamil/Data-analytics-using-numpy-and-python-at-Amity-Lucknow/blob/main/solutions/04_practice_solutions.ipynb) |
-| [Retail sales CSV](datasets/retail_sales_practice.csv) | Region/product profitability and a pricing scenario | Download from GitHub |
-| [Marketing campaigns CSV](datasets/marketing_campaigns_practice.csv) | CTR, CPC, CPL, CAC, and ROAS analysis | Download from GitHub |
+| [Retail sales CSV](datasets/sales.csv) | Region/product profitability and a pricing scenario | Download from GitHub |
+| [Marketing campaigns CSV](datasets/campaigns.csv) | CTR, CPC, CPL, CAC, and ROAS analysis | Download from GitHub |
 
 Start with the practice notebook, run its data-loading cell, and complete the exercises in order. Use the solved notebook after attempting your answers. The [dataset guide](datasets/README.md) explains columns and deliberate data-quality issues. Budget 30–45 minutes for the full practice lab outside the main session.
 
@@ -52,8 +52,7 @@ Start with the practice notebook, run its data-loading cell, and complete the ex
 | 20–45 | NumPy business essentials |
 | 45–85 | Pandas sales and profitability analysis |
 | 85–95 | MBA mini-case and discussion |
-| 95–105 | Eigenvalue problems and a covariance example |
-| 105–115 | Selected Python tools from the appendix |
+| 95–115 | Selected Python tools from the appendix |
 | 115–120 | Recap and questions |
 
 **Core:** notebooks 1 and 2. **Optional closing material:** notebook 3. The tools appendix gives two short examples or scenarios for each requested topic; use selected examples in class and leave the rest for self-study.
@@ -103,7 +102,7 @@ All currency values are INR. Gross profit excludes overheads and taxes. Price-ch
 
 ## Additional topics requested by the university
 
-Notebook 3 covers bug tracking, virtual environments, pdoc, Komodo Edit, debugging using pydbgr (with a Python 3 `pdb` demonstration), IPython, PyUnit/`unittest`, isort, Mercurial, libraries, dictionaries, packages, and eigenvalue problems. Interactive debugger and installation commands are shown as reference text rather than executed automatically.
+Notebook 3 covers bug tracking, virtual environments, pdoc, Komodo Edit, debugging using pydbgr (with a Python 3 `pdb` demonstration), IPython, PyUnit/`unittest`, isort, Mercurial, libraries, dictionaries, and packages. Interactive debugger and installation commands are shown as reference text rather than executed automatically.
 
 ### Your instructor: Zaid Kamil
 

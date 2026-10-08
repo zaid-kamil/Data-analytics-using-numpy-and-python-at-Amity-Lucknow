@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 560" role="img" aria-labelledby="title desc">
+  <title id="title">The marketing funnel</title>
+  <desc id="desc">A funnel showing impressions becoming clicks, leads, customers, and revenue.</desc>
+  <rect width="1100" height="560" rx="24" fill="#f8fafc"/>
+  <text x="550" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#0f172a">The marketing funnel</text>
+  <text x="550" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#475569">Many people see the ad; fewer continue at each step. The funnel is picky.</text>
+
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <polygon points="130,100 970,100 900,180 200,180" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+    <text x="550" y="135" font-size="22" font-weight="700" fill="#1e3a8a">Impressions</text><text x="550" y="160" font-size="15" fill="#1e40af">The ad appeared on a screen</text>
+
+    <polygon points="200,195 900,195 830,275 270,275" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+    <text x="550" y="230" font-size="22" font-weight="700" fill="#0c4a6e">Clicks</text><text x="550" y="255" font-size="15" fill="#075985">Someone decided to look</text>
+
+    <polygon points="270,290 830,290 760,370 340,370" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+    <text x="550" y="325" font-size="22" font-weight="700" fill="#14532d">Leads</text><text x="550" y="350" font-size="15" fill="#166534">Someone showed real interest</text>
+
+    <polygon points="340,385 760,385 690,465 410,465" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+    <text x="550" y="420" font-size="22" font-weight="700" fill="#78350f">Customers</text><text x="550" y="445" font-size="15" fill="#92400e">Someone finally bought</text>
+
+    <polygon points="410,480 690,480 645,535 455,535" fill="#fae8ff" stroke="#c026d3" stroke-width="2"/>
+    <text x="550" y="514" font-size="22" font-weight="700" fill="#701a75">Revenue</text>
+  </g>
+
+  <g font-family="Arial, sans-serif" font-size="15" fill="#334155">
+    <text x="75" y="235" text-anchor="middle">CTR</text><text x="75" y="255" text-anchor="middle">Clicks ÷ Impressions</text>
+    <text x="1015" y="330" text-anchor="middle">CPL</text><text x="1015" y="350" text-anchor="middle">Spend ÷ Leads</text>
+    <text x="1015" y="425" text-anchor="middle">CAC</text><text x="1015" y="445" text-anchor="middle">Spend ÷ Customers</text>
+  </g>
+</svg>

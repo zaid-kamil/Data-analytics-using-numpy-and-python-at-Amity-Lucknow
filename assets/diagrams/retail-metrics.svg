@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+  <title id="title">How retail metrics connect</title>
+  <desc id="desc">Units and price produce revenue, units and cost produce total cost, and subtracting cost from revenue produces gross profit.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#475569"/></marker>
+  </defs>
+  <rect width="1200" height="390" rx="24" fill="#f8fafc"/>
+  <text x="600" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#0f172a">From one order to business metrics</text>
+
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <rect x="55" y="92" width="180" height="72" rx="16" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+    <text x="145" y="123" font-size="19" font-weight="700" fill="#1e3a8a">Units</text><text x="145" y="147" font-size="14" fill="#1e40af">How many were sold?</text>
+    <rect x="55" y="226" width="180" height="72" rx="16" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+    <text x="145" y="257" font-size="19" font-weight="700" fill="#0c4a6e">Unit Price</text><text x="145" y="281" font-size="14" fill="#075985">What did each sell for?</text>
+
+    <text x="280" y="200" font-size="30" font-weight="700" fill="#475569">×</text>
+    <rect x="335" y="147" width="205" height="100" rx="18" fill="#dcfce7" stroke="#16a34a" stroke-width="3"/>
+    <text x="437" y="187" font-size="22" font-weight="700" fill="#14532d">Revenue</text><text x="437" y="217" font-size="15" fill="#166534">Units × Unit Price</text>
+
+    <rect x="655" y="92" width="180" height="72" rx="16" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+    <text x="745" y="123" font-size="19" font-weight="700" fill="#78350f">Units</text><text x="745" y="147" font-size="14" fill="#92400e">Same order quantity</text>
+    <rect x="655" y="226" width="180" height="72" rx="16" fill="#ffedd5" stroke="#ea580c" stroke-width="2"/>
+    <text x="745" y="257" font-size="19" font-weight="700" fill="#7c2d12">Unit Cost</text><text x="745" y="281" font-size="14" fill="#9a3412">What each cost us</text>
+
+    <text x="880" y="200" font-size="30" font-weight="700" fill="#475569">×</text>
+    <rect x="935" y="147" width="210" height="100" rx="18" fill="#ffe4e6" stroke="#e11d48" stroke-width="3"/>
+    <text x="1040" y="187" font-size="22" font-weight="700" fill="#881337">Total Cost</text><text x="1040" y="217" font-size="15" fill="#9f1239">Units × Unit Cost</text>
+  </g>
+
+  <path d="M437 260 C437 330, 540 330, 570 330" fill="none" stroke="#475569" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M1040 260 C1040 330, 850 330, 820 330" fill="none" stroke="#475569" stroke-width="4" marker-end="url(#arrow)"/>
+  <rect x="570" y="297" width="250" height="70" rx="18" fill="#fae8ff" stroke="#c026d3" stroke-width="3"/>
+  <text x="695" y="327" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#701a75">Gross Profit</text>
+  <text x="695" y="352" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#86198f">Revenue − Total Cost</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" role="img" aria-labelledby="title desc">
+  <title id="title">Revenue and gross profit by region</title><desc id="desc">A grouped bar chart comparing revenue and gross profit for Delhi, Kanpur, and Lucknow.</desc>
+  <rect width="1000" height="520" rx="24" fill="#f8fafc"/>
+  <text x="500" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#0f172a">Regional performance at a glance</text>
+  <g stroke="#cbd5e1" stroke-width="1"><line x1="110" y1="420" x2="930" y2="420"/><line x1="110" y1="330" x2="930" y2="330"/><line x1="110" y1="240" x2="930" y2="240"/><line x1="110" y1="150" x2="930" y2="150"/></g>
+  <g font-family="Arial, sans-serif" font-size="15" fill="#475569"><text x="92" y="425" text-anchor="end">0</text><text x="92" y="335" text-anchor="end">2k</text><text x="92" y="245" text-anchor="end">4k</text><text x="92" y="155" text-anchor="end">6k</text></g>
+  <g><rect x="190" y="132" width="70" height="288" rx="8" fill="#2563eb"/><rect x="265" y="300" width="70" height="120" rx="8" fill="#22c55e"/><rect x="445" y="249" width="70" height="171" rx="8" fill="#2563eb"/><rect x="520" y="348" width="70" height="72" rx="8" fill="#22c55e"/><rect x="700" y="141" width="70" height="279" rx="8" fill="#2563eb"/><rect x="775" y="303" width="70" height="117" rx="8" fill="#22c55e"/></g>
+  <g font-family="Arial, sans-serif" text-anchor="middle" font-size="16" fill="#334155"><text x="262" y="452">Delhi</text><text x="517" y="452">Kanpur</text><text x="772" y="452">Lucknow</text></g>
+  <g font-family="Arial, sans-serif" font-size="15"><rect x="360" y="478" width="18" height="18" rx="3" fill="#2563eb"/><text x="386" y="493" fill="#334155">Revenue</text><rect x="520" y="478" width="18" height="18" rx="3" fill="#22c55e"/><text x="546" y="493" fill="#334155">Gross Profit</text></g>
+</svg>

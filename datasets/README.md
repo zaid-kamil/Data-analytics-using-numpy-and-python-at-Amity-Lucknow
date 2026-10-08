@@ -6,7 +6,7 @@ strange. All money values are in Indian rupees (INR).
 
 ## 1. Retail sales: notebooks, pens, and profit
 
-**File:** `retail_sales_practice.csv`
+**File:** `sales.csv`
 
 **What are we looking at?** Each row is one shop order. It tells us what was
 sold, where it was sold, how many units escaped from the shelf, and the price
@@ -46,7 +46,7 @@ copycat; the other has forgotten how many items it sold.
 
 ## 2. Marketing campaigns: clicks, customers, and cash
 
-**File:** `marketing_campaigns_practice.csv`
+**File:** `campaigns.csv`
 
 **What are we looking at?** Each row is one advertising campaign. It shows where
 the ad ran, how much was spent, how many people saw or clicked it, and how much

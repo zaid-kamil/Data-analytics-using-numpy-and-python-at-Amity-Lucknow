@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 540" role="img" aria-labelledby="title desc">
+  <title id="title">Anatomy of a Pandas DataFrame</title>
+  <desc id="desc">A labelled table showing the index, columns, rows, a Series, and one cell.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#475569"/></marker></defs>
+  <rect width="1200" height="540" rx="24" fill="#f8fafc"/>
+  <text x="600" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#0f172a">Pandas DataFrame: a labelled table</text>
+  <text x="600" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#475569">Rows are records, columns are fields, and labels stop the numbers from becoming mystery soup.</text>
+
+  <g font-family="Arial, sans-serif" text-anchor="middle" font-size="16">
+    <rect x="210" y="115" width="760" height="300" rx="12" fill="#ffffff" stroke="#475569" stroke-width="2"/>
+    <rect x="210" y="115" width="760" height="60" rx="12" fill="#dbeafe"/>
+    <rect x="210" y="115" width="105" height="300" rx="12" fill="#f1f5f9"/>
+    <rect x="575" y="115" width="145" height="300" fill="#dcfce7" fill-opacity="0.8"/>
+    <rect x="720" y="235" width="125" height="60" fill="#fef3c7" stroke="#d97706" stroke-width="3"/>
+    <g stroke="#94a3b8" stroke-width="1">
+      <line x1="315" y1="115" x2="315" y2="415"/><line x1="445" y1="115" x2="445" y2="415"/><line x1="575" y1="115" x2="575" y2="415"/><line x1="720" y1="115" x2="720" y2="415"/><line x1="845" y1="115" x2="845" y2="415"/>
+      <line x1="210" y1="175" x2="970" y2="175"/><line x1="210" y1="235" x2="970" y2="235"/><line x1="210" y1="295" x2="970" y2="295"/><line x1="210" y1="355" x2="970" y2="355"/>
+    </g>
+    <g font-weight="700" fill="#1e3a8a">
+      <text x="262" y="151">index</text><text x="380" y="151">Product</text><text x="510" y="151">Region</text><text x="647" y="151">Units</text><text x="782" y="151">Price</text><text x="907" y="151">Revenue</text>
+    </g>
+    <g fill="#334155">
+      <text x="262" y="211">0</text><text x="380" y="211">Notebook</text><text x="510" y="211">Lucknow</text><text x="647" y="211">20</text><text x="782" y="211">100</text><text x="907" y="211">2000</text>
+      <text x="262" y="271">1</text><text x="380" y="271">Pen</text><text x="510" y="271">Delhi</text><text x="647" y="271">50</text><text x="782" y="271">20</text><text x="907" y="271">1000</text>
+      <text x="262" y="331">2</text><text x="380" y="331">Planner</text><text x="510" y="331">Kanpur</text><text x="647" y="331">8</text><text x="782" y="331">300</text><text x="907" y="331">2400</text>
+      <text x="262" y="391">3</text><text x="380" y="391">Notebook</text><text x="510" y="391">Delhi</text><text x="647" y="391">30</text><text x="782" y="391">100</text><text x="907" y="391">3000</text>
+    </g>
+    <text x="647" y="444" font-weight="700" fill="#166534">One column = Series</text>
+    <line x1="647" y1="430" x2="647" y2="402" stroke="#475569" stroke-width="3" marker-end="url(#arrow)"/>
+    <text x="782" y="473" font-weight="700" fill="#92400e">One value = cell</text>
+    <line x1="782" y1="458" x2="782" y2="296" stroke="#475569" stroke-width="3" marker-end="url(#arrow)"/>
+    <text x="118" y="270" font-weight="700" fill="#334155">One row = order</text>
+    <line x1="180" y1="265" x2="223" y2="265" stroke="#475569" stroke-width="3" marker-end="url(#arrow)"/>
+  </g>
+</svg>

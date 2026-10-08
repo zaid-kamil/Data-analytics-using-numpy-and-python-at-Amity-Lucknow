@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" role="img" aria-labelledby="title desc">
+  <title id="title">Monthly sales bar chart</title><desc id="desc">A bar chart of six months of sales with a target line at fifty thousand rupees.</desc>
+  <rect width="1000" height="520" rx="24" fill="#f8fafc"/>
+  <text x="500" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#0f172a">Monthly sales versus target</text>
+  <g stroke="#cbd5e1" stroke-width="1"><line x1="100" y1="420" x2="940" y2="420"/><line x1="100" y1="330" x2="940" y2="330"/><line x1="100" y1="240" x2="940" y2="240"/><line x1="100" y1="150" x2="940" y2="150"/></g>
+  <g font-family="Arial, sans-serif" font-size="15" fill="#475569"><text x="82" y="425" text-anchor="end">0</text><text x="82" y="335" text-anchor="end">20k</text><text x="82" y="245" text-anchor="end">40k</text><text x="82" y="155" text-anchor="end">60k</text></g>
+  <line x1="100" y1="195" x2="940" y2="195" stroke="#e11d48" stroke-width="4" stroke-dasharray="10 8"/><text x="930" y="182" text-anchor="end" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#be123c">Target: INR 50k</text>
+  <g font-family="Arial, sans-serif" text-anchor="middle"><g fill="#93c5fd"><rect x="135" y="231" width="90" height="189" rx="8"/><rect x="275" y="204" width="90" height="216" rx="8"/><rect x="555" y="218" width="90" height="202" rx="8"/></g><g fill="#22c55e"><rect x="415" y="190" width="90" height="230" rx="8"/><rect x="695" y="150" width="90" height="270" rx="8"/><rect x="835" y="177" width="90" height="243" rx="8"/></g><g font-size="16" fill="#334155"><text x="180" y="452">Jan</text><text x="320" y="452">Feb</text><text x="460" y="452">Mar</text><text x="600" y="452">Apr</text><text x="740" y="452">May</text><text x="880" y="452">Jun</text></g></g>
+  <text x="500" y="492" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#475569">Green bars met the target; blue bars are still warming up.</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
+  <title id="title">NumPy arrays and matrices</title>
+  <desc id="desc">A one-dimensional monthly sales array beside a two-dimensional branch-by-month sales matrix, with axes labelled.</desc>
+  <rect width="1200" height="500" rx="24" fill="#f8fafc"/>
+  <text x="600" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#0f172a">NumPy: numbers arranged with purpose</text>
+  <text x="600" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#475569">An array can be one-dimensional; a matrix has rows and columns.</text>
+
+  <g font-family="Arial, sans-serif">
+    <text x="255" y="120" text-anchor="middle" font-size="22" font-weight="700" fill="#1e3a8a">1D array: monthly sales</text>
+    <text x="255" y="146" text-anchor="middle" font-size="15" fill="#475569">shape = (6,)</text>
+    <g text-anchor="middle" font-size="17" font-weight="700" fill="#1e3a8a">
+      <rect x="30" y="180" width="90" height="75" rx="12" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/><text x="75" y="225">42k</text>
+      <rect x="125" y="180" width="90" height="75" rx="12" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/><text x="170" y="225">48k</text>
+      <rect x="220" y="180" width="90" height="75" rx="12" fill="#bfdbfe" stroke="#2563eb" stroke-width="2"/><text x="265" y="225">51k</text>
+      <rect x="315" y="180" width="90" height="75" rx="12" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/><text x="360" y="225">45k</text>
+      <rect x="410" y="180" width="90" height="75" rx="12" fill="#93c5fd" stroke="#2563eb" stroke-width="2"/><text x="455" y="225">60k</text>
+      <rect x="505" y="180" width="90" height="75" rx="12" fill="#bfdbfe" stroke="#2563eb" stroke-width="2"/><text x="550" y="225">54k</text>
+    </g>
+    <text x="312" y="294" text-anchor="middle" font-size="15" fill="#475569">one value for each month →</text>
+
+    <text x="850" y="120" text-anchor="middle" font-size="22" font-weight="700" fill="#14532d">2D matrix: branches × months</text>
+    <text x="850" y="146" text-anchor="middle" font-size="15" fill="#475569">shape = (3, 3)</text>
+    <g text-anchor="middle" font-size="16">
+      <text x="760" y="177" fill="#475569">Jan</text><text x="860" y="177" fill="#475569">Feb</text><text x="960" y="177" fill="#475569">Mar</text>
+      <text x="685" y="221" text-anchor="end" fill="#475569">Lucknow</text><text x="685" y="286" text-anchor="end" fill="#475569">Delhi</text><text x="685" y="351" text-anchor="end" fill="#475569">Kanpur</text>
+      <g fill="#14532d" font-weight="700">
+        <rect x="715" y="190" width="90" height="55" rx="10" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/><text x="760" y="224">42k</text>
+        <rect x="815" y="190" width="90" height="55" rx="10" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/><text x="860" y="224">48k</text>
+        <rect x="915" y="190" width="90" height="55" rx="10" fill="#bbf7d0" stroke="#16a34a" stroke-width="2"/><text x="960" y="224">51k</text>
+        <rect x="715" y="255" width="90" height="55" rx="10" fill="#bbf7d0" stroke="#16a34a" stroke-width="2"/><text x="760" y="289">55k</text>
+        <rect x="815" y="255" width="90" height="55" rx="10" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/><text x="860" y="289">50k</text>
+        <rect x="915" y="255" width="90" height="55" rx="10" fill="#86efac" stroke="#16a34a" stroke-width="2"/><text x="960" y="289">60k</text>
+        <rect x="715" y="320" width="90" height="55" rx="10" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/><text x="760" y="354">38k</text>
+        <rect x="815" y="320" width="90" height="55" rx="10" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/><text x="860" y="354">41k</text>
+        <rect x="915" y="320" width="90" height="55" rx="10" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/><text x="960" y="354">44k</text>
+      </g>
+    </g>
+    <rect x="655" y="400" width="390" height="62" rx="16" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+    <text x="850" y="427" text-anchor="middle" font-size="17" font-weight="700" fill="#78350f">axis=1 → total across months</text>
+    <text x="850" y="451" text-anchor="middle" font-size="17" font-weight="700" fill="#78350f">axis=0 → total down branches</text>
+  </g>
+</svg>
